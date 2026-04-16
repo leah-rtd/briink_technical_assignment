@@ -13,7 +13,7 @@ The module:
 ## 🌐 Accessing WikiRate’s Data
 
 Data was retrieved via the WikiRate API using the `requests` package with JSON responses. Endpoints were dynamically constructed using metric and company identifiers:
-
+The main logic for extracting the data is in `wiki_data_extractor/extract_info.py` while the database is created in `wiki_data_extractor/create_database.py`
 ``` python
 https://wikirate.org/~{metric}
 https://wikirate.org/~{metric}+~{company}+{year}

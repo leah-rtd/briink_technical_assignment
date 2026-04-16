@@ -1,0 +1,717 @@
+[
+  {
+    "input": {
+      "question": "What is the company's total number of employees?",
+      "custom_id": "Core+Employee",
+      "data_type": "Metric",
+      "company": "H&M",
+      "file_metas": [
+        {
+          "file_name": "Annual and Sustainability Report 2023",
+          "file_url": "https://wikirate.org/Source_000203213.json"
+        }
+      ]
+    },
+    "reference_output": {
+      "answer": "143000 employees",
+      "source_documents": [
+        {
+          "file_name": "Annual and Sustainability Report 2023",
+          "file_url": "https://wikirate.org/Source_000203213.json",
+          "page_number": [
+            "p.11"
+          ]
+        }
+      ]
+    },
+    "structured_data": [
+      {
+        "unit": "employees",
+        "value": 143000.0,
+        "time_period": 2023
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What is the company's total number of employees?",
+      "custom_id": "Core+Employee",
+      "data_type": "Metric",
+      "company": "Unilever",
+      "file_metas": [
+        {
+          "file_name": "Unilever\u2019s Relentless Commitment To S-Curve Transformations",
+          "file_url": "https://wikirate.org/Source_000200808.json"
+        }
+      ]
+    },
+    "reference_output": {
+      "answer": "127000 employees",
+      "source_documents": [
+        {
+          "file_name": "Unilever\u2019s Relentless Commitment To S-Curve Transformations",
+          "file_url": "https://wikirate.org/Source_000200808.json"
+        }
+      ]
+    },
+    "structured_data": [
+      {
+        "unit": "employees",
+        "value": 127000.0,
+        "time_period": 2023
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What is the company's total number of employees?",
+      "custom_id": "Core+Employee",
+      "data_type": "Metric",
+      "company": "Nike Inc.",
+      "file_metas": [
+        {
+          "file_name": "Form 10-K 2023",
+          "file_url": "https://wikirate.org/Source_000203225.json"
+        }
+      ]
+    },
+    "reference_output": {
+      "answer": "83700 employees",
+      "source_documents": [
+        {
+          "file_name": "Form 10-K 2023",
+          "file_url": "https://wikirate.org/Source_000203225.json",
+          "page_number": [
+            "p.6"
+          ]
+        }
+      ]
+    },
+    "structured_data": [
+      {
+        "unit": "employees",
+        "value": 83700.0,
+        "time_period": 2023
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What is the company's total number of employees?",
+      "custom_id": "Core+Employee",
+      "data_type": "Metric",
+      "company": "Puma",
+      "file_metas": [
+        {
+          "file_name": "PUMA Annual Report 2023",
+          "file_url": "https://wikirate.org/Source_000200862.json"
+        }
+      ]
+    },
+    "reference_output": {
+      "answer": "18681 employees",
+      "source_documents": [
+        {
+          "file_name": "PUMA Annual Report 2023",
+          "file_url": "https://wikirate.org/Source_000200862.json",
+          "page_number": [
+            "p.222"
+          ]
+        }
+      ]
+    },
+    "structured_data": [
+      {
+        "unit": "employees",
+        "value": 18681.0,
+        "time_period": 2023
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What is the company's total number of employees?",
+      "custom_id": "Core+Employee",
+      "data_type": "Metric",
+      "company": "Adidas AG",
+      "file_metas": [
+        {
+          "file_name": "Adidas AG Annual Report 2023",
+          "file_url": "https://wikirate.org/Source_000200917.json"
+        }
+      ]
+    },
+    "reference_output": {
+      "answer": "59030 employees",
+      "source_documents": [
+        {
+          "file_name": "Adidas AG Annual Report 2023",
+          "file_url": "https://wikirate.org/Source_000200917.json",
+          "page_number": [
+            "p.78"
+          ]
+        }
+      ]
+    },
+    "structured_data": [
+      {
+        "unit": "employees",
+        "value": 59030.0,
+        "time_period": 2023
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What is the company's total number of employees?",
+      "custom_id": "Core+Employee",
+      "data_type": "Metric",
+      "company": "Kering",
+      "file_metas": [
+        {
+          "file_name": "Kering ESG Databook 2023",
+          "file_url": "https://wikirate.org/Source_000216767.json"
+        }
+      ]
+    },
+    "reference_output": {
+      "answer": "47850 employees",
+      "source_documents": [
+        {
+          "file_name": "Kering ESG Databook 2023",
+          "file_url": "https://wikirate.org/Source_000216767.json"
+        }
+      ]
+    },
+    "structured_data": [
+      {
+        "unit": "employees",
+        "value": 47850.0,
+        "time_period": 2023
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What is the company's total number of employees?",
+      "custom_id": "Core+Employee",
+      "data_type": "Metric",
+      "company": "Fast Retailing",
+      "file_metas": [
+        {
+          "file_name": "Fast Retailing Sustainability Data Book 2023",
+          "file_url": "https://wikirate.org/Source_000216599.json"
+        }
+      ]
+    },
+    "reference_output": {
+      "answer": "114220 employees",
+      "source_documents": [
+        {
+          "file_name": "Fast Retailing Sustainability Data Book 2023",
+          "file_url": "https://wikirate.org/Source_000216599.json"
+        }
+      ]
+    },
+    "structured_data": [
+      {
+        "unit": "employees",
+        "value": 114220.0,
+        "time_period": 2023
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What is the company's total number of employees?",
+      "custom_id": "Core+Employee",
+      "data_type": "Metric",
+      "company": "Marks and Spencer Group plc",
+      "file_metas": [
+        {
+          "file_name": "Annual report 2023 ",
+          "file_url": "https://wikirate.org/Source_000200849.json"
+        }
+      ]
+    },
+    "reference_output": {
+      "answer": "65000 employees",
+      "source_documents": [
+        {
+          "file_name": "Annual report 2023 ",
+          "file_url": "https://wikirate.org/Source_000200849.json"
+        }
+      ]
+    },
+    "structured_data": [
+      {
+        "unit": "employees",
+        "value": 65000.0,
+        "time_period": 2023
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What is the company's total number of employees?",
+      "custom_id": "Core+Employee",
+      "data_type": "Metric",
+      "company": "Burberry Group plc",
+      "file_metas": [
+        {
+          "file_name": "Burberry Group plc Annual Report 2023/24",
+          "file_url": "https://wikirate.org/Source_000203263.json"
+        }
+      ]
+    },
+    "reference_output": {
+      "answer": "9336 employees",
+      "source_documents": [
+        {
+          "file_name": "Burberry Group plc Annual Report 2023/24",
+          "file_url": "https://wikirate.org/Source_000203263.json",
+          "page_number": [
+            "p.50"
+          ]
+        }
+      ]
+    },
+    "structured_data": [
+      {
+        "unit": "employees",
+        "value": 9336.0,
+        "time_period": 2023
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What is the company's total number of employees?",
+      "custom_id": "Core+Employee",
+      "data_type": "Metric",
+      "company": "Nestle",
+      "file_metas": [
+        {
+          "file_name": "Creating Shared Value Sustainability Report 2023",
+          "file_url": "https://wikirate.org/Source_000206517.json"
+        }
+      ]
+    },
+    "reference_output": {
+      "answer": "262200 employees",
+      "source_documents": [
+        {
+          "file_name": "Creating Shared Value Sustainability Report 2023",
+          "file_url": "https://wikirate.org/Source_000206517.json"
+        }
+      ]
+    },
+    "structured_data": [
+      {
+        "unit": "employees",
+        "value": 262200.0,
+        "time_period": 2023
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What percentage of the company's employees are female?",
+      "custom_id": "GreenDex+Percentage of Female Employees",
+      "data_type": "Metric",
+      "company": "H&M",
+      "file_metas": []
+    },
+    "reference_output": {
+      "answer": "72.98976660941356 %",
+      "source_documents": []
+    },
+    "structured_data": [
+      {
+        "unit": "%",
+        "value": 72.98976660941356,
+        "time_period": 2024
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What percentage of the company's employees are female?",
+      "custom_id": "GreenDex+Percentage of Female Employees",
+      "data_type": "Metric",
+      "company": "Unilever",
+      "file_metas": []
+    },
+    "reference_output": {
+      "answer": "35.74950690335306 %",
+      "source_documents": []
+    },
+    "structured_data": [
+      {
+        "unit": "%",
+        "value": 35.74950690335306,
+        "time_period": 2021
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What percentage of the company's employees are female?",
+      "custom_id": "GreenDex+Percentage of Female Employees",
+      "data_type": "Metric",
+      "company": "Nike Inc.",
+      "file_metas": []
+    },
+    "reference_output": {
+      "answer": "49.743887627396106 %",
+      "source_documents": []
+    },
+    "structured_data": [
+      {
+        "unit": "%",
+        "value": 49.743887627396106,
+        "time_period": 2023
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What percentage of the company's employees are female?",
+      "custom_id": "GreenDex+Percentage of Female Employees",
+      "data_type": "Metric",
+      "company": "Puma",
+      "file_metas": []
+    },
+    "reference_output": {
+      "answer": "45.21829521829522 %",
+      "source_documents": []
+    },
+    "structured_data": [
+      {
+        "unit": "%",
+        "value": 45.21829521829522,
+        "time_period": 2023
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What percentage of the company's employees are female?",
+      "custom_id": "GreenDex+Percentage of Female Employees",
+      "data_type": "Metric",
+      "company": "Adidas AG",
+      "file_metas": []
+    },
+    "reference_output": {
+      "answer": "50.99949178383872 %",
+      "source_documents": []
+    },
+    "structured_data": [
+      {
+        "unit": "%",
+        "value": 50.99949178383872,
+        "time_period": 2023
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What percentage of the company's employees are female?",
+      "custom_id": "GreenDex+Percentage of Female Employees",
+      "data_type": "Metric",
+      "company": "Kering",
+      "file_metas": []
+    },
+    "reference_output": {
+      "answer": "61.506122448979596 %",
+      "source_documents": []
+    },
+    "structured_data": [
+      {
+        "unit": "%",
+        "value": 61.506122448979596,
+        "time_period": 2023
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What percentage of the company's employees are female?",
+      "custom_id": "GreenDex+Percentage of Female Employees",
+      "data_type": "Metric",
+      "company": "Fast Retailing",
+      "file_metas": []
+    },
+    "reference_output": {
+      "answer": "68.20061534389784 %",
+      "source_documents": []
+    },
+    "structured_data": [
+      {
+        "unit": "%",
+        "value": 68.20061534389784,
+        "time_period": 2024
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What percentage of the company's employees are female?",
+      "custom_id": "GreenDex+Percentage of Female Employees",
+      "data_type": "Metric",
+      "company": "Marks and Spencer Group plc",
+      "file_metas": []
+    },
+    "reference_output": {
+      "answer": "68.52523303403308 %",
+      "source_documents": []
+    },
+    "structured_data": [
+      {
+        "unit": "%",
+        "value": 68.52523303403308,
+        "time_period": 2023
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What percentage of the company's employees are female?",
+      "custom_id": "GreenDex+Percentage of Female Employees",
+      "data_type": "Metric",
+      "company": "Burberry Group plc",
+      "file_metas": []
+    },
+    "reference_output": {
+      "answer": "69.11366711772666 %",
+      "source_documents": []
+    },
+    "structured_data": [
+      {
+        "unit": "%",
+        "value": 69.11366711772666,
+        "time_period": 2023
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What percentage of the company's employees are female?",
+      "custom_id": "GreenDex+Percentage of Female Employees",
+      "data_type": "Metric",
+      "company": "Nestle",
+      "file_metas": []
+    },
+    "reference_output": {
+      "answer": "39.89439573008006 %",
+      "source_documents": []
+    },
+    "structured_data": [
+      {
+        "unit": "%",
+        "value": 39.89439573008006,
+        "time_period": 2023
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What percentage of the following ten social indicators are disclosed? ",
+      "custom_id": "University of Sydney SDG Research Group 2021+Social Metrics Disclosure Rate",
+      "data_type": "Metric",
+      "company": "H&M",
+      "file_metas": []
+    },
+    "reference_output": {
+      "answer": "50 %",
+      "source_documents": []
+    },
+    "structured_data": [
+      {
+        "unit": "%",
+        "value": 50.0,
+        "time_period": 2024
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What percentage of the following ten social indicators are disclosed? ",
+      "custom_id": "University of Sydney SDG Research Group 2021+Social Metrics Disclosure Rate",
+      "data_type": "Metric",
+      "company": "Unilever",
+      "file_metas": []
+    },
+    "reference_output": {
+      "answer": "10 %",
+      "source_documents": []
+    },
+    "structured_data": [
+      {
+        "unit": "%",
+        "value": 10.0,
+        "time_period": 2024
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What percentage of the following ten social indicators are disclosed? ",
+      "custom_id": "University of Sydney SDG Research Group 2021+Social Metrics Disclosure Rate",
+      "data_type": "Metric",
+      "company": "Nike Inc.",
+      "file_metas": []
+    },
+    "reference_output": {
+      "answer": "10 %",
+      "source_documents": []
+    },
+    "structured_data": [
+      {
+        "unit": "%",
+        "value": 10.0,
+        "time_period": 2024
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What percentage of the following ten social indicators are disclosed? ",
+      "custom_id": "University of Sydney SDG Research Group 2021+Social Metrics Disclosure Rate",
+      "data_type": "Metric",
+      "company": "Puma",
+      "file_metas": []
+    },
+    "reference_output": {
+      "answer": "0 %",
+      "source_documents": []
+    },
+    "structured_data": [
+      {
+        "unit": "%",
+        "value": 0.0,
+        "time_period": 2024
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What percentage of the following ten social indicators are disclosed? ",
+      "custom_id": "University of Sydney SDG Research Group 2021+Social Metrics Disclosure Rate",
+      "data_type": "Metric",
+      "company": "Adidas AG",
+      "file_metas": []
+    },
+    "reference_output": {
+      "answer": "10 %",
+      "source_documents": []
+    },
+    "structured_data": [
+      {
+        "unit": "%",
+        "value": 10.0,
+        "time_period": 2024
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What percentage of the following ten social indicators are disclosed? ",
+      "custom_id": "University of Sydney SDG Research Group 2021+Social Metrics Disclosure Rate",
+      "data_type": "Metric",
+      "company": "Kering",
+      "file_metas": []
+    },
+    "reference_output": {
+      "answer": "10 %",
+      "source_documents": []
+    },
+    "structured_data": [
+      {
+        "unit": "%",
+        "value": 10.0,
+        "time_period": 2024
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What percentage of the following ten social indicators are disclosed? ",
+      "custom_id": "University of Sydney SDG Research Group 2021+Social Metrics Disclosure Rate",
+      "data_type": "Metric",
+      "company": "Fast Retailing",
+      "file_metas": []
+    },
+    "reference_output": {
+      "answer": "40 %",
+      "source_documents": []
+    },
+    "structured_data": [
+      {
+        "unit": "%",
+        "value": 40.0,
+        "time_period": 2024
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What percentage of the following ten social indicators are disclosed? ",
+      "custom_id": "University of Sydney SDG Research Group 2021+Social Metrics Disclosure Rate",
+      "data_type": "Metric",
+      "company": "Marks and Spencer Group plc",
+      "file_metas": []
+    },
+    "reference_output": {
+      "answer": "10 %",
+      "source_documents": []
+    },
+    "structured_data": [
+      {
+        "unit": "%",
+        "value": 10.0,
+        "time_period": 2024
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What percentage of the following ten social indicators are disclosed? ",
+      "custom_id": "University of Sydney SDG Research Group 2021+Social Metrics Disclosure Rate",
+      "data_type": "Metric",
+      "company": "Burberry Group plc",
+      "file_metas": []
+    },
+    "reference_output": {
+      "answer": "10 %",
+      "source_documents": []
+    },
+    "structured_data": [
+      {
+        "unit": "%",
+        "value": 10.0,
+        "time_period": 2024
+      }
+    ]
+  },
+  {
+    "input": {
+      "question": "What percentage of the following ten social indicators are disclosed? ",
+      "custom_id": "University of Sydney SDG Research Group 2021+Social Metrics Disclosure Rate",
+      "data_type": "Metric",
+      "company": "Nestle",
+      "file_metas": []
+    },
+    "reference_output": {
+      "answer": "10 %",
+      "source_documents": []
+    },
+    "structured_data": [
+      {
+        "unit": "%",
+        "value": 10.0,
+        "time_period": 2024
+      }
+    ]
+  }
+]

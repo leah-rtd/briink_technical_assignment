@@ -2,13 +2,27 @@
 
 This project extracts ESG-related metrics from the WikiRate API and transforms them into a structured dataset suitable for machine learning training and evaluation pipelines. It was developed as part of a technical assessment for Briink.
 
-## 🚀 Overview
+## Navigating the module
+```
+.
+├── results.json           # Final structured dataset
+│── README.md              # Project documentation
+│── .env.sample            # Storing environment variables
+wiki_data_extractor/
+│── extract_info.py        # Fetches metric and company data from WikiRate
+│── utils.py               # Helper utilities (e.g., regex parsing)
+└── create_database.py     # Main script to generate the dataset
 
-The module:
- - Retrieves ESG data from WikiRate via its API.
- - Transforms it into the specified schema for ML evaluation.
- - Outputs the dataset as JSON file (`results.json`).
-
+```
+File Descriptions:
+ - `extract_info.py`:
+    - `get_metric_info()`: Retrieves metadata for a WikiRate metric.
+    - `get_company_info()`: Extracts company-specific metric data, sources, and structured values.
+ - `utils.py`:
+    - `page_number_parser()`: Extracts page references from source comments using regex.
+- `create_database.py`:
+  - `get_all_company_metric()`: Aggregates data for multiple companies and formats it into the required schema.
+  - Serves as the main entry point for generating the dataset.
 
 ## 🌐 Accessing WikiRate’s Data
 

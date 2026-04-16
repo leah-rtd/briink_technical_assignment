@@ -7,7 +7,7 @@ This project extracts ESG-related metrics from the WikiRate API and transforms t
 The module:
  - Retrieves ESG data from WikiRate via its API.
  - Transforms it into the specified schema for ML evaluation.
- - Outputs the dataset as JSON file (`results.json).
+ - Outputs the dataset as JSON file (`results.json`).
 
 
 ## 🌐 Accessing WikiRate’s Data

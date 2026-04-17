@@ -32,7 +32,7 @@ Data was retrieved via the WikiRate API using the `requests` package with JSON r
 https://wikirate.org/~{metric}
 https://wikirate.org/~{metric}+~{company}+{year}
 ```
-The main logic for extracting the data is in `wiki_data_extractor/extract_info.py` while the database is created in `wiki_data_extractor/create_database.py`
+More information on accessing WikiRate's data can be found in `wiki_data_extractor/extract_info.py` .
 The API key is stored as an environment variable `WIKI_RATE_KEY` see `.env.sample`.
 
 If the environment variable is set, run the script with:
